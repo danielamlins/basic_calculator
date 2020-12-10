@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="jumbotron text-center bg-warning">
+            <h1>CALCULATION X</h1>
+        </div>
+        
+        <div id="calculator">
+            <div class="row">
+                <button class="btn btn-light col-3 border border-info num" value="7">7</button>
+                <button class="btn btn-light col-3 border border-info num" value="8">8</button>
+                <button class="btn btn-light col-3 border border-info num" value="9">9</button>
+                <button class="btn btn-light col-3 border border-info oper" value="/">/</button>
+                <button class="btn btn-light col-3 border border-info num" value="4">4</button>
+                <button class="btn btn-light col-3 border border-info num" value="5">5</button>
+                <button class="btn btn-light col-3 border border-info num" value="6">6</button>
+                <button class="btn btn-light col-3 border border-info oper" value="*">*</button>
+                <button class="btn btn-light col-3 border border-info num" value="1">1</button>
+                <button class="btn btn-light col-3 border border-info num" value="2">2</button>
+                <button class="btn btn-light col-3 border border-info num" value="3">3</button>
+                <button class="btn btn-light col-3 border border-info oper" value="-">-</button>
+                <button class="btn btn-light col-3 border border-info num" value="0">0</button>
+                <button class="btn btn-light col-3 border border-info num" value=".">.</button>
+                <button class="btn btn-light col-3 border border-info" id="equal" value="=">=</button>
+                <button class="btn btn-light col-3 border border-info oper" value="+">+</button>
+            </div>
+        </div>
+
+         <form action="#">
+            <input type="text" id="input-num" placeholder="0">
+        </form>
+       
+        <p id="result" class="alert alert-success"></p>
+        <div class="history">
+            <h6>History</h6>
+            <p id="history-para"></p>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
