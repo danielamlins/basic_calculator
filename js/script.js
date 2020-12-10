@@ -1,6 +1,5 @@
 let nums = document.querySelectorAll(".num");
 let input = document.getElementById("input-num");
-let operators = document.querySelectorAll(".oper");
 
 // Restart value used to make sure that the numbers are concated when needed or the result is deleted and the number replaces it 
 let restart = true;
