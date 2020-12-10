@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#calculator {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#calculator button{
+    border-radius: 1px;
+}
+
+input {
+    width: 83%;
+    margin: 1em auto;
+    display: block;
+    padding: 2px 5px;
+    border: 1px solid #bb8e13;
+    box-shadow: 0 0 1px 1px #ad9857de;
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 2px solid #5bc0de;
+    outline: #5bc0de;
+    box-shadow: 0 0 4px 1px #5bc0de;
+}
+
+/* W3 Schools */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#result {
+    width: 83%;
+    margin: 0 auto;
+}
+
+.history {
+    width: 83%;
+    margin: 1em auto;
+}
